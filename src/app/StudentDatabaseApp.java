@@ -4,6 +4,7 @@ public class StudentDatabaseApp {
     public static void main(String[] args) throws Exception {
 
         Student a = new Student();
+        Student b = new Student();
 
         // TODO Ask How many users to add
 
