@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentDatabaseApp",
+            "request": "launch",
+            "mainClass": "app.StudentDatabaseApp",
+            "projectName": "StudentDataBase"
+        }
+    ]
+}
