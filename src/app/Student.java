@@ -47,8 +47,6 @@ public class Student {
 
         setStudentID();
 
-        System.out.println("Hello " + firstName + space + lastName + space + studentID);
-
         enrollCourse();
 
         // print info
@@ -62,7 +60,7 @@ public class Student {
 
     };
 
-    // TODO 3 Enroll in courses
+    // Enroll in courses
     public void enrollCourse() {
 
         String input = "";
@@ -101,10 +99,10 @@ public class Student {
         System.out.println("See you soon");
 
     }
-    // TODO 4 view Balance
 
-    // TODO 5 Pay tuition
-
-    // TODO 6 Show status
+    @Override
+    public String toString() {
+        return "Hello" + firstName + space + lastName + space + studentID;
+    }
 
 }

@@ -1,14 +1,21 @@
 package app;
 
+import java.util.Scanner;
+
 public class StudentDatabaseApp {
     public static void main(String[] args) throws Exception {
+        Scanner in = new Scanner(System.in);
 
-        Student a = new Student();
-        Student b = new Student();
+        System.out.print("Enter how many students will enroll courses: ");
+        int n = in.nextInt();
 
-        // TODO Ask How many users to add
+        Student[] students = new Student[n];
+        for (n = 0; n < students.length; n++) {
+            students[n] = new Student();
 
-        // TODO Create n numbers of new students
+            System.out.println(students[n]);
+
+        }
 
     }
 }
